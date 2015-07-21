@@ -4,8 +4,8 @@
 
 <body>
   <h1>Fonts are people too</h1>
-  {{ >input}}
   {{> messages}}
+  {{> input}}
 </body>
 
 <template name="messages">
@@ -15,5 +15,5 @@
 </template>
 
 <template name="input">
-  <p>Message: <input type="text" id="message"></p>
+  <p><input type="text" id="message"></p>
 </template>
