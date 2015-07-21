@@ -9,9 +9,11 @@
 </body>
 
 <template name="messages">
-  {{#each messages}}
-    <strong>{{name}}:</strong> {{message}}<br>
-  {{/each}}
+  <h3>
+    {{#each messages}}
+      <strong>{{name}}:</strong> {{message}}<br>
+    {{/each}}
+  </h3>
 </template>
 
 <template name="input">

@@ -1,4 +1,11 @@
 /* CSS declarations go here */
 body{
-  background-color: pink;
+  background-color: #2C3E50;
+}
+input{
+  background-color: #34495E;
+}
+h1, h3{
+  color: #FDFDF0
+;
 }
